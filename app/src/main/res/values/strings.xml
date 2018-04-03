@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Music</string>
+
+    <string name="button">GO</string>
+    <string name="artist">Jay Z-Rhianna-Kanye West</string>
+    <string name="songname">We run this town!</string>
+
+    <string name="return_to_menu">Return to menu</string>
+</resources>

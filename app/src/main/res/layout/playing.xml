@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/concert">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_normal">
+
+        <ImageView
+            android:id="@+id/coverAlbum"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:padding="@dimen/padding_normal"
+            android:src="@drawable/art_rockstar" />
+
+        <TextView
+            android:id="@+id/songname"
+            style="@style/Song" />
+
+        <TextView
+            android:id="@+id/artist_name"
+            style="@style/Artist" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <SeekBar
+                android:id="@+id/seekbar"
+                style="@style/SeekBar"
+                android:progressTint="@android:color/white"
+                android:thumbTint="@android:color/white" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/controllbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_normal">
+
+            <Button
+                android:id="@+id/pause"
+                style="@style/IconButton"
+                android:text="Pause" />
+
+            <Button
+                android:id="@+id/play"
+                style="@style/IconButton"
+                android:text="Play" />
+
+            <Button
+                android:id="@+id/stop"
+                style="@style/IconButton"
+                android:text="Stop" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/returnToMenu"
+            style="@style/IconButton"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/margin_normal"
+            android:text="@string/return_to_menu" />
+    </LinearLayout>
+</ScrollView>

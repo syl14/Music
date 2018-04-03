@@ -1,0 +1,104 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/colorbutton</item>
+        <item name="android:text">@string/button</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="GifImage">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">555dp</item>
+        <item name="android:background">@android:color/black</item>
+    </style>
+
+    <style name="Grid">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:numColumns">2</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:columnWidth">80dp</item>
+        <item name="android:verticalSpacing">30dp</item>
+        <item name="android:horizontalSpacing">30dp</item>
+        <item name="android:stretchMode">columnWidth</item>
+
+    </style>
+
+    <style name="Icon">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:cropToPadding">false</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/padding_normal</item>
+        <item name="android:visibility">visible</item>
+    </style>
+
+    <style name="TextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingTop">@dimen/padding_title_artist_btw</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Image">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:contentDescription">null</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="Song">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:text">@string/songname</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="Artist">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:text">@string/artist</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="SeekBar">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">4</item>
+        <item name="android:max">100</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:progress">20</item>
+    </style>
+
+    <style name="IconButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@null</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
